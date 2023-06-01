@@ -21,4 +21,9 @@ $var1='hello';
 echo strlen($var1)."<br>";
 echo strtoupper($var1)."<br>";
 
+
+$var2='limon';
+echo $var2."<br>";
+echo str_replace('l','L',$var2)."<br>";
+
 ?> 
